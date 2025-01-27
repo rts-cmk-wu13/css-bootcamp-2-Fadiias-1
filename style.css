@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+
+    padding: 10px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+li {
+    font-weight: 600;
+}
+
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+
+}
+
+.search {
+
+    display: flex;
+    column-gap: 1em;
+}
+
+.ul2 {
+    display: flex;
+    column-gap: 3em;
+    list-style: none;
+    place-self: center;
+    padding: 1em;
+}
+
+.silver {
+    background-color: #d8d8d8;
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 52%;
+    height: 15em;
+    place-self: center;
+    margin-top: 3em;
+
+}
+
+.sec1 {
+    display: flex;
+    column-gap: 1em;
+    padding: 1em;
+    margin-top: 2em;
+    place-self: center;
+    flex-direction: column;
+    max-width: 54%;
+    margin-left: 0em;
+}
+
+.h4 {
+    DISPLAY: flex;
+    column-gap: 7px;
+    margin-bottom: 2em;
+}
+
+h5 {
+    color: #b1b0b0;
+    ;
+    direction: rtl;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.Børge {
+    margin-bottom: 2em;
+    font-weight: 600;
+    color: silver;
+}
+
+.image {
+    display: flex;
+}
+
+.art {
+    margin-left: 19em;
+}
+
+.dato {
+    display: flex;
+    column-gap: 30em;
+    margin-left: 20em;
+    margin-top: 2em;
+    border-bottom-style: dotted;
+    padding-bottom: 1em;
+}
+
+.social {
+    display: flex;
+    column-gap: 1em;
+    margin-top: 2em;
+    margin-left: 20em;
+}
+
+.face {
+    border: none;
+    color: white;
+    width: 129px;
+    height: 49px;
+}
+
+.dolor {
+    width: 20em;
+    line-height: 1.5em;
+}
+
+.kommentar {
+    margin-top: 2em;
+    margin-left: 20em;
+    margin-bottom: 2em;
+    display: flex;
+    place-self: center;
+    row-gap: 2em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.klik {
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* sec1 done------------------------------------------- */
+
+/* sec2 start------------------------------------------- */
+
+.sec2 {
+    padding: 1em;
+    margin-top: 2em;
+    place-self: center;
+    flex-direction: column;
+    max-width: 54%;
+    margin-left: 0em;
+}
+
+.læst {
+    display: flex;
+    column-gap: 47em;
+    border-bottom: solid 1px;
+    padding-bottom: 1em;
+
+}
+
+.arrows {
+    display: flex;
+    column-gap: 1em;
+}
+
+article {
+    display: flex;
+    column-gap: 1em;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.im {
+    max-width: 99%;
+}
+
+.articler {
+    display: flex;
+    column-gap: 1em;
+
+}
+
+.amet {
+    font-weight: 600;
+}
+
+
+.info {
+    margin-left: 24em;
+    width: 38em;
+}
+
+
+.article2 {
+    column-gap: 4em;
+    display: flex;
+}
+
+.bigarticle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14em;
+}
+
+
+.massage {
+    line-height: 4em;
+}
+
+.abonn {
+    color: red;
+}
+
+/* footer_______________________ */
+footer {
+    background-color: silver;
+    width: 100%;
+    height: 33em;
+    padding-inline: 14em;
+
+}
+
+.bigfoot {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.journal {
+    margin-top: -32px;
+    box-shadow: 1px 4px 6px 0px;
+
+}
+
+.mail {
+    display: flex;
+    column-gap: 1em;
+}
+
+.skriv {
+    border: none;
+    width: 300px;
+    height: 40px;
+}
+
+.tilmeld {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(206, 204, 204);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.tilmeld:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.sit {
+    margin-top: 5em;
+    place-self: center;
+    text-align: -webkit-center;
+}
+
+.os {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(206, 204, 204);
+    color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 51em;
+}
+
+/* ------------------------- */
+
+.sec3 {
+    padding: 1em;
+    margin-top: 9em;
+    place-self: center;
+    flex-direction: column;
+    max-width: 54%;
+    margin-bottom: 5em;
+}
+
+.bigdiv {
+    display: flex;
+    column-gap: 9em;
+    margin-top: 2em;
+    padding-bottom: 1em;
+
+}
+p{
+    line-height: 1.5em;
+}
